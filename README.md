@@ -192,7 +192,7 @@ cmake --build .
 ctest --output-on-failure
 ```
 
-To enable building with C++20 modules (and importing the library with `import sqlitecpp;`), pass `SQLITECPP_BUILD_MODULES` to the build system.
+To enable building with C++20 modules (and importing the library with `import sqlite;`), pass `SQLITECPP_BUILD_MODULES` to the build system.
 
 #### Building with meson
 
